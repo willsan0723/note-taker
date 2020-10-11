@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest", 
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "jest": "^26.5.2",
     "jquery": "^3.5.1",
     "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
